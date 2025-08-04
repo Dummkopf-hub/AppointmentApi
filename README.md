@@ -82,15 +82,15 @@ SETUP
    
 3. Apply migrations and create the database:
 
-  dotnet ef database update
+   dotnet ef database update
 
 4. Run the API:
 
-  dotnet run
+   dotnet run
 
 5. Open Swagger UI in your browser:
 
-   https://localhost:<port>/swagger
+    https://localhost:<port>/swagger
 
 ---
 
