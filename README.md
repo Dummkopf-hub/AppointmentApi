@@ -2,7 +2,7 @@ AppointmentSystemAPI is a RESTful Web API built with ASP.NET Core that allows us
 
 ---
 
-Technologies:
+<h2>Technologies:</h2>
 
 - ASP.NET Core 8
 - Entity Framework Core (SQLite)
@@ -15,7 +15,7 @@ Technologies:
 
 ---
 
-User Roles:
+<h2>User Roles:</h2>
 
 | Role     | Permissions                                                         |
 |----------|----------------------------------------------------------------------|
@@ -24,43 +24,42 @@ User Roles:
 
 ---
 
-Project Structure:
+<h2>Project Structure:</h2>
 
-AppointmentSystemAPI/
-│
-├── Controllers/
-│ ├── AuthorizationController.cs
-│ ├── UserController.cs
-│ └── AppointmentController.cs
-│
-├── Models/
-├── Services/
-├── Migrations/
-├── Controllers/
-├── Data/
-│ └── AppDbContext.cs
-│
-├── appsettings.json
-├── Program.cs
-└── README.md
+<p>AppointmentSystemAPI/</p>
+<p>│</p>
+<p>├── Controllers/</p>
+<p>│ ├── AuthorizationController.cs</p>
+<p>│ ├── UserController.cs</p>
+<p>│ └── AppointmentController.cs</p>
+<p>│</p>
+<p>├── Controllers/</p>
+<p>├── Migrations/</p>
+<p>├── Models/</p>
+<p>├── Services/</p>
+<p>├── Data/</p>
+<p>│</p>
+<p>├── appsettings.json</p>
+<p>├── Program.cs</p>
+<p>└── README.md</p>
 ---
 
-MAIN FEATURES
+<h1>MAIN FEATURES
 
-Authentication & Authorization:
+<h1>Authentication & Authorization:
 
 - Registration with password hashing
 - Login with JWT token generation
 - Role-based authorization using
 
-User Management:
+<h1>User Management:
 
 - Get own profile
 - Update profile 
 - View all experts
 - View expert by ID
 
-Appointments:
+<h1>Appointments:
 
 - Create appointment (User)
 - View own appointments (User/Expert)
@@ -69,26 +68,26 @@ Appointments:
 
 ---
 
-SETUP
+<h1>SETUP</h1>
 
-1. Clone the repository:
+<h2>1. Clone the repository:</h2>
    
    git clone https://github.com/Dummkopf-hub/AppointmentApi.git
    cd AppointmentApi
 
-2. Restore depemdencies:
+<h2>2. Restore depemdencies:</h2>
 
    dotnet restore
    
-3. Apply migrations and create the database:
+<h2>3. Apply migrations and create the database:</h2>
 
    dotnet ef database update
 
-4. Run the API:
+<h2>4. Run the API:</h2>
 
    dotnet run
 
-5. Open Swagger UI in your browser:
+<h2>5. Open Swagger UI in your browser:</h2>
 
     https://localhost:<port>/swagger
 
